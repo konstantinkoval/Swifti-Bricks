@@ -25,8 +25,8 @@ class Stack<T> {
     items += object
   }
   
-  func pop() -> T {
-    return items.removeLast()
+  func pop() -> T? {
+    return items.isEmpty ? nil : items.removeLast()
   }
   
 // Helpful

@@ -11,31 +11,48 @@ import Sleipnir
 class StackSpec : SleipnirSpec {
     
   var stackContext : () = context("stack") {
-    var stack: Stack<Int>?
-    beforeAll {
-      stack = Stack<Int>()
-    }
+    var stack: Stack<Int>!
+    
     afterAll {
       stack = nil
     }
     
     describe("empty stack") {
-      it("should be not nil") {
-        expect(stack).toNot(beNil())
+      beforeAll {
+        stack = Stack<Int>()
       }
       
       it("should have 0 items") {
-        expect(stack!.count()).toNot(equal(4))
+        expect(stack.count()).toNot(equal(4))
       }
       it("should be empty") {
-       expect(stack!.isEmpty()).to(equal(true))
+       expect(stack.isEmpty()).to(equal(true))
       }
-      
+      it("shold pop nil optional") {
+        expect(stack.pop() == nil).to(beTrue())
+      }
     }
     
-    it("has author") {
-      //expect(swiftBook!.author).to(equal("Apple Inc."))
+    describe("stack with 5 object") {
+      beforeAll {
+        stack = Stack<Int>([1, 2, 3, 4, 55])
+      }
+      it("shold not be empty") {
+        expect(stack.isEmpty()).to(equal(false))
+      }
+
+      it("shold have 5") {
+        expect(stack.count()).to(equal(5))
+      }
+      it("shold have 4 after pop") {
+        stack.pop()
+        expect(stack.count()).to(equal(4))
+      }
+      it("shold pop last object") {
+        expect(stack.pop()!).to(equal(55))
+      }
     }
+
   }
 }
 

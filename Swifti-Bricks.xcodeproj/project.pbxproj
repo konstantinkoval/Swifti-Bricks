@@ -12,7 +12,6 @@
 		B59D0B781975873C00FE3294 /* StackSpeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F17DA919756F690058D7DC /* StackSpeck.swift */; };
 		B59D0B791975880900FE3294 /* StackSpeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F17DA919756F690058D7DC /* StackSpeck.swift */; };
 		B59D0B7C1975887300FE3294 /* Sleipnir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59D0B7B1975887300FE3294 /* Sleipnir.framework */; };
-		B59D0B8319758A4F00FE3294 /* test!!!.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D0B7E197588BC00FE3294 /* test!!!.swift */; };
 		B5A5610E1974823A002B1CEC /* Swift-Bricks.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A5610D1974823A002B1CEC /* Swift-Bricks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5A5612519748249002B1CEC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5612419748249002B1CEC /* Stack.swift */; };
 /* End PBXBuildFile section */
@@ -30,15 +29,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B536FAEA1975ADF80042CD4E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		B59D0B6D1975816100FE3294 /* Swifti-BricksTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swifti-BricksTest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59D0B6F1975816100FE3294 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B59D0B7B1975887300FE3294 /* Sleipnir.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sleipnir.framework; path = "DerivedData/Swift-Bricks/Build/Products/Debug/Sleipnir.framework"; sourceTree = "<group>"; };
-		B59D0B7E197588BC00FE3294 /* test!!!.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "test!!!.swift"; sourceTree = "<group>"; };
 		B5A561081974823A002B1CEC /* Swifti-Bricks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Swifti-Bricks.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A5610C1974823A002B1CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5A5610D1974823A002B1CEC /* Swift-Bricks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bricks.h"; sourceTree = "<group>"; };
-		B5A5611A1974823A002B1CEC /* Swift_BricksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_BricksTests.swift; sourceTree = "<group>"; };
 		B5A5612419748249002B1CEC /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		B5F17DA919756F690058D7DC /* StackSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,10 +61,7 @@
 		B59D0B6E1975816100FE3294 /* Swift-BricksTest */ = {
 			isa = PBXGroup;
 			children = (
-				B5A5611A1974823A002B1CEC /* Swift_BricksTests.swift */,
 				B5F17DA919756F690058D7DC /* StackSpeck.swift */,
-				B59D0B7E197588BC00FE3294 /* test!!!.swift */,
-				B536FAEA1975ADF80042CD4E /* MyPlayground.playground */,
 				B59D0B6F1975816100FE3294 /* main.swift */,
 			);
 			path = "Swift-BricksTest";
@@ -213,7 +206,6 @@
 				B59D0B791975880900FE3294 /* StackSpeck.swift in Sources */,
 				B59D0B77197582E400FE3294 /* Stack.swift in Sources */,
 				B59D0B701975816100FE3294 /* main.swift in Sources */,
-				B59D0B8319758A4F00FE3294 /* test!!!.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
