@@ -22,8 +22,8 @@ func useStack()
   }
 
   println(s.isEmpty())
-  for item in s {
-    println(item)
+  for (index, item) in enumerate(s) {
+    println(index, item)
   }
 
 }

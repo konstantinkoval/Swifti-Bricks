@@ -40,18 +40,9 @@ struct Stack<T> {
 }
 
 extension Stack : Sequence {
- func generate() -> StackGenerator<T> {
-    return items.generate() //StackGenerator( items: items[0..<items.count])
+ func generate() -> IndexingGenerator<[T]> {
+  return items.generate()
   }
 }
 
-struct StackGenerator<T> : Generator {
-   mutating func next() -> T? {
-    if items.isEmpty { return nil }
-    let ret = items[0]
-    items = items[1..<items.count]
-    return ret
-  }
-  
-  var items: Slice<T>
-}
+
