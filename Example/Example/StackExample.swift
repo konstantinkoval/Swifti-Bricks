@@ -14,17 +14,24 @@ func useStack()
   s.push(20)
   s.push(30)
   let item = s.pop()
-  s.isEmpty()
-  s.count()
+  s.isEmpty
+  s.count
   
   for item in s {
     println(item)
   }
+  let s1 = Stack<Int>(1)
+  let s2 = Stack<String>(["1", "2"])
+  let s3 = Stack<Int>(3)
+  
+  var res = s1 + s3
+  let theSame = s1 == s3
 
-  println(s.isEmpty())
+  println(s.isEmpty)
   for (index, item) in enumerate(s) {
     println(index, item)
   }
+
 
 }
 

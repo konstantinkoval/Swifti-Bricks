@@ -17,17 +17,13 @@ class StackSpec : SleipnirSpec {
       stack = Stack<Int>()
     }
     
-//    afterEach {
-//      stack = nil
-//    }
-    
     describe("empty stack") {
       
       it("should have 0 items") {
-        expect(stack.count()).toNot(equal(4))
+        expect(stack.count).toNot(equal(4))
       }
       it("should be empty") {
-       expect(stack.isEmpty()).to(equal(true))
+       expect(stack.isEmpty).to(equal(true))
       }
       it("shold fail on pop nil optional") {
       }
@@ -39,10 +35,10 @@ class StackSpec : SleipnirSpec {
       }
       
       it("shold not be empty") {
-        expect(stack.isEmpty()).to(equal(false))
+        expect(stack.isEmpty).to(equal(false))
       }
       it("shold have 5") {
-        expect(stack.count()).to(equal(5))
+        expect(stack.count).to(equal(5))
       }
     }
     
@@ -53,9 +49,9 @@ class StackSpec : SleipnirSpec {
       
       describe("push") {
         it("should increse size") {
-          let size = stack.count()
+          let size = stack.count
           stack.push(1)
-          expect(stack.count()).to(equal(size + 1))
+          expect(stack.count).to(equal(size + 1))
         }
         it("should add new element to the tail") {
           stack.push(10)
@@ -65,13 +61,24 @@ class StackSpec : SleipnirSpec {
       
       describe("pop") {
         it("should decrease size") {
-          let size = stack.count()
+          let size = stack.count
           stack.pop()
-          expect(stack.count()).to(equal(size - 1))
+          expect(stack.count).to(equal(size - 1))
         }
         it("shold return last object") {
           expect(stack.pop()).to(equal(101))
         }
+      }
+      
+      it("should be equal") {
+        let stack1 = Stack(101)
+        expect(stack).to(equal(stack1))
+      }
+      
+      it("should add 2 stacks") {
+        let stack1 = stack + Stack(1)
+        let stack2 = Stack<Int>([101, 1])
+        expect(stack1).to(equal(stack2))
       }
     }
   }

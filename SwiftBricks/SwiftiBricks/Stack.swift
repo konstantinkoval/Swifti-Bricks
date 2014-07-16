@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Stack<T> {
+struct Stack<T> :Equatable {
 
   var items: [T]
   
@@ -33,11 +33,11 @@ struct Stack<T> {
   }
   
 // Helpful
-  func count() -> Int {
+  var count: Int {
     return items.count
   }
   
-  func isEmpty () -> Bool {
+  var isEmpty: Bool {
     return items.isEmpty
   }
 }
@@ -52,4 +52,7 @@ extension Stack : Sequence {
   return Stack(left.items + right.items)
 }
 
+func == <T>(lhs: Stack<T>, rhs: Stack<T>) -> Bool {
+  return lhs.count == rhs.count && lhs.items == rhs.items
+}
 
