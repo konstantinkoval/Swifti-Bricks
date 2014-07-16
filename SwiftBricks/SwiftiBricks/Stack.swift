@@ -38,3 +38,20 @@ struct Stack<T> {
     return items.isEmpty
   }
 }
+
+extension Stack : Sequence {
+ func generate() -> StackGenerator<T> {
+    return items.generate() //StackGenerator( items: items[0..<items.count])
+  }
+}
+
+struct StackGenerator<T> : Generator {
+   mutating func next() -> T? {
+    if items.isEmpty { return nil }
+    let ret = items[0]
+    items = items[1..<items.count]
+    return ret
+  }
+  
+  var items: Slice<T>
+}

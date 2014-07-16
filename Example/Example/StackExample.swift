@@ -11,12 +11,20 @@ func useStack()
 {
   var s = Stack<Int>()
   s.push(10)
-  s.pop()
-  
-  
+  s.push(20)
+  s.push(30)
+  let item = s.pop()
+  s.isEmpty()
+  s.count()
   
   for item in s {
     println(item)
   }
+
+  println(s.isEmpty())
+  for item in s {
+    println(item)
+  }
+
 }
 

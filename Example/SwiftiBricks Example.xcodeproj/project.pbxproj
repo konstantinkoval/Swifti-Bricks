@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B5660F56197674C1007F3539 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F55197674C0007F3539 /* main.swift */; };
 		B5660F5A1976759C007F3539 /* StackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555131019765F19001B21A1 /* StackExample.swift */; };
+		B5BD48BE197683D0001ECD50 /* SwiftiBricks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5660F4B19767399007F3539 /* SwiftiBricks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5BD48BE197683D0001ECD50 /* SwiftiBricks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +155,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug-iphoneos",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -197,6 +203,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug-iphoneos",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -230,6 +240,7 @@
 				B5660F59197674C1007F3539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
