@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Example/SwiftiBricks Example.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../../../Work/Pods/Sleipnir/Sleipnir/Sleipnir.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Swifti-Bricks.xcodeproj">
+      location = "group:SwiftBricks/SwiftiBricks.xcodeproj">
    </FileRef>
 </Workspace>

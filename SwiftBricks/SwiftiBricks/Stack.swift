@@ -8,9 +8,9 @@
 
 import Foundation
 
-class Stack<T> {
+struct Stack<T> {
 
-  var items: Array<T>
+  var items: [T]
   
   init () {
     self.items = Array()
@@ -21,12 +21,12 @@ class Stack<T> {
   }
   
 // Root stakc funtion
-  func push(object: T) {
+  mutating func push(object: T) {
     items += object
   }
   
-  func pop() -> T? {
-    return items.isEmpty ? nil : items.removeLast()
+ mutating func pop() -> T {
+    return items.removeLast()
   }
   
 // Helpful
@@ -37,9 +37,4 @@ class Stack<T> {
   func isEmpty () -> Bool {
     return items.isEmpty
   }
-  
-  func iss () {
-   
-  }
-  
 }

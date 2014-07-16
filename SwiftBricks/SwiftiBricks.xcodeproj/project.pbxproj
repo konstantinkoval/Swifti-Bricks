@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50EB12D19766FB2003E9CC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB12619766FAF003E9CC3 /* Stack.swift */; };
+		B50EB12E19766FB2003E9CC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB12619766FAF003E9CC3 /* Stack.swift */; };
+		B50EB12F19766FB3003E9CC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB12619766FAF003E9CC3 /* Stack.swift */; };
+		B5660F47197672EB007F3539 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F45197672EB007F3539 /* main.swift */; };
+		B5660F48197672EB007F3539 /* StackSpeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F46197672EB007F3539 /* StackSpeck.swift */; };
+		B5660F4A1976732D007F3539 /* Sleipnir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5660F491976732D007F3539 /* Sleipnir.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B59D0B6B1975816100FE3294 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B50EB0E319766DAE003E9CC3 /* SwiftiBricks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftiBricks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50EB10919766E2D003E9CC3 /* SwiftiBricks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftiBricks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50EB12619766FAF003E9CC3 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		B50EB12819766FAF003E9CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50EB12919766FAF003E9CC3 /* SwiftiBricks-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftiBricks-iOS.h"; sourceTree = "<group>"; };
+		B50EB12B19766FAF003E9CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50EB12C19766FAF003E9CC3 /* SwiftiBricks-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftiBricks-OSX.h"; sourceTree = "<group>"; };
+		B5660F45197672EB007F3539 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B5660F46197672EB007F3539 /* StackSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpeck.swift; sourceTree = "<group>"; };
+		B5660F491976732D007F3539 /* Sleipnir.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sleipnir.framework; path = "../DerivedData/Swift-Bricks/Build/Products/Debug/Sleipnir.framework"; sourceTree = "<group>"; };
+		B59D0B6D1975816100FE3294 /* SwiftiBricksTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftiBricksTest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50EB0DF19766DAE003E9CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50EB10519766E2D003E9CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59D0B6A1975816100FE3294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5660F4A1976732D007F3539 /* Sleipnir.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50EB12519766FAF003E9CC3 /* SwiftiBricks */ = {
+			isa = PBXGroup;
+			children = (
+				B50EB12619766FAF003E9CC3 /* Stack.swift */,
+			);
+			path = SwiftiBricks;
+			sourceTree = "<group>";
+		};
+		B50EB12719766FAF003E9CC3 /* SwiftiBricks-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B50EB12819766FAF003E9CC3 /* Info.plist */,
+				B50EB12919766FAF003E9CC3 /* SwiftiBricks-iOS.h */,
+			);
+			path = "SwiftiBricks-iOS";
+			sourceTree = "<group>";
+		};
+		B50EB12A19766FAF003E9CC3 /* SwiftiBricks-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				B50EB12B19766FAF003E9CC3 /* Info.plist */,
+				B50EB12C19766FAF003E9CC3 /* SwiftiBricks-OSX.h */,
+			);
+			path = "SwiftiBricks-OSX";
+			sourceTree = "<group>";
+		};
+		B5660F44197672EB007F3539 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				B5660F45197672EB007F3539 /* main.swift */,
+				B5660F46197672EB007F3539 /* StackSpeck.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		B5A560FE1974823A002B1CEC = {
+			isa = PBXGroup;
+			children = (
+				B5660F491976732D007F3539 /* Sleipnir.framework */,
+				B50EB12519766FAF003E9CC3 /* SwiftiBricks */,
+				B5660F44197672EB007F3539 /* Test */,
+				B50EB12719766FAF003E9CC3 /* SwiftiBricks-iOS */,
+				B50EB12A19766FAF003E9CC3 /* SwiftiBricks-OSX */,
+				B5A561091974823A002B1CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A561091974823A002B1CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59D0B6D1975816100FE3294 /* SwiftiBricksTest */,
+				B50EB0E319766DAE003E9CC3 /* SwiftiBricks.framework */,
+				B50EB10919766E2D003E9CC3 /* SwiftiBricks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B50EB0E019766DAE003E9CC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50EB10619766E2D003E9CC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B50EB0E219766DAE003E9CC3 /* SwiftiBricks-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50EB0F619766DAE003E9CC3 /* Build configuration list for PBXNativeTarget "SwiftiBricks-iOS" */;
+			buildPhases = (
+				B50EB0DE19766DAE003E9CC3 /* Sources */,
+				B50EB0DF19766DAE003E9CC3 /* Frameworks */,
+				B50EB0E019766DAE003E9CC3 /* Headers */,
+				B50EB0E119766DAE003E9CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftiBricks-iOS";
+			productName = "SwiftiBricks-iOS";
+			productReference = B50EB0E319766DAE003E9CC3 /* SwiftiBricks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B50EB10819766E2D003E9CC3 /* SwiftiBricks-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50EB11C19766E2E003E9CC3 /* Build configuration list for PBXNativeTarget "SwiftiBricks-OSX" */;
+			buildPhases = (
+				B50EB10419766E2D003E9CC3 /* Sources */,
+				B50EB10519766E2D003E9CC3 /* Frameworks */,
+				B50EB10619766E2D003E9CC3 /* Headers */,
+				B50EB10719766E2D003E9CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftiBricks-OSX";
+			productName = "SwiftiBricks-OSX";
+			productReference = B50EB10919766E2D003E9CC3 /* SwiftiBricks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B59D0B6C1975816100FE3294 /* SwiftiBricksTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59D0B731975816100FE3294 /* Build configuration list for PBXNativeTarget "SwiftiBricksTest" */;
+			buildPhases = (
+				B59D0B691975816100FE3294 /* Sources */,
+				B59D0B6A1975816100FE3294 /* Frameworks */,
+				B59D0B6B1975816100FE3294 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftiBricksTest;
+			productName = "Swift-BricksTest";
+			productReference = B59D0B6D1975816100FE3294 /* SwiftiBricksTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5A560FF1974823A002B1CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Konstantin Koval";
+				TargetAttributes = {
+					B50EB0E219766DAE003E9CC3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B50EB10819766E2D003E9CC3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B59D0B6C1975816100FE3294 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = B5A561021974823A002B1CEC /* Build configuration list for PBXProject "SwiftiBricks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5A560FE1974823A002B1CEC;
+			productRefGroup = B5A561091974823A002B1CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59D0B6C1975816100FE3294 /* SwiftiBricksTest */,
+				B50EB0E219766DAE003E9CC3 /* SwiftiBricks-iOS */,
+				B50EB10819766E2D003E9CC3 /* SwiftiBricks-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50EB0E119766DAE003E9CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50EB10719766E2D003E9CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50EB0DE19766DAE003E9CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50EB12D19766FB2003E9CC3 /* Stack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50EB10419766E2D003E9CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50EB12E19766FB2003E9CC3 /* Stack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59D0B691975816100FE3294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5660F48197672EB007F3539 /* StackSpeck.swift in Sources */,
+				B5660F47197672EB007F3539 /* main.swift in Sources */,
+				B50EB12F19766FB3003E9CC3 /* Stack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B50EB0F719766DAE003E9CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwiftiBricks-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SwiftiBricks;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B50EB0F819766DAE003E9CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SwiftiBricks-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SwiftiBricks;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B50EB11D19766E2E003E9CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwiftiBricks-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = SwiftiBricks;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B50EB11E19766E2E003E9CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "SwiftiBricks-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = SwiftiBricks;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B59D0B711975816100FE3294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DerivedData/Swift-Bricks/Build/Products/Debug",
+					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = SwiftiBricksTest;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B59D0B721975816100FE3294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DerivedData/Swift-Bricks/Build/Products/Debug",
+					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = SwiftiBricksTest;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B5A5611C1974823A002B1CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5A5611D1974823A002B1CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50EB0F619766DAE003E9CC3 /* Build configuration list for PBXNativeTarget "SwiftiBricks-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50EB0F719766DAE003E9CC3 /* Debug */,
+				B50EB0F819766DAE003E9CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50EB11C19766E2E003E9CC3 /* Build configuration list for PBXNativeTarget "SwiftiBricks-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50EB11D19766E2E003E9CC3 /* Debug */,
+				B50EB11E19766E2E003E9CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59D0B731975816100FE3294 /* Build configuration list for PBXNativeTarget "SwiftiBricksTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59D0B711975816100FE3294 /* Debug */,
+				B59D0B721975816100FE3294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A561021974823A002B1CEC /* Build configuration list for PBXProject "SwiftiBricks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A5611C1974823A002B1CEC /* Debug */,
+				B5A5611D1974823A002B1CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5A560FF1974823A002B1CEC /* Project object */;
+}
