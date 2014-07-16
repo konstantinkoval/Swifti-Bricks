@@ -15,6 +15,9 @@ struct Stack<T> {
   init () {
     self.items = Array()
   }
+  init (_ item: T) {
+    self.items = [item]
+  }
   
   init (_ items: Array<T>) {
     self.items = items
@@ -43,6 +46,10 @@ extension Stack : Sequence {
  func generate() -> IndexingGenerator<[T]> {
   return items.generate()
   }
+}
+
+@infix func + <T>(left: Stack<T>, right: Stack<T>) -> Stack<T> {
+  return Stack(left.items + right.items)
 }
 
 
