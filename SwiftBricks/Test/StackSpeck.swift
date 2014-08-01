@@ -85,12 +85,12 @@ class StackSpec : SleipnirSpec {
         expect(stack1 == stack2).to(beTrue())
       }
       
-        it("shold be iterable in for in") {
-          let stack = Stack<Int>([1,2,3])
-          for el in stack {
-            expect(el).toNot(beNil())
-          }
+      it("shold be iterable in for in") {
+        let stack = Stack<Int>([1,2,3])
+        for el in stack {
+          expect(el).toNot(beNil())
         }
+      }
       
 //      it("shold be able minus stacks") {
 //        let stack2 = Stack<Int>([101, 1]) - Stack(1)

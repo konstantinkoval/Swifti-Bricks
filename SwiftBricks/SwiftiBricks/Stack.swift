@@ -16,9 +16,13 @@ public class Stack<T> : Container<T>, Sequence {
     super.init(items)
   }
   
-// MARK: Main
+// MARK: Main methods
   public func push(object: T) {
     items += object
+  }
+  
+  public func push(items: [T]) {
+    self.items += items
   }
   
   public func pop() -> T {
@@ -33,15 +37,11 @@ public class Stack<T> : Container<T>, Sequence {
     return Array(removed)
   }
   
+  var top: T {
+    return items.last!
+  }
+  
 }
-
-//public func test ()
-//{
-//  let s =  Stack<Int>(1)
-//  for item in s {
-//    println(items)
-//}
-
 
 @infix public func + <T>(left: Stack<T>, right: Stack<T>) -> Stack<T> {
   return Stack(left.items + right.items)
@@ -50,6 +50,8 @@ public class Stack<T> : Container<T>, Sequence {
 @assignment public func += <T>(inout left: Stack<T>, right: Stack<T>) {
   left = left + right
 }
+
+
 
 /*
 @infix public func - <T: Equatable>(lhs: Stack<T>, rhs: Stack<T>) -> Stack<T>? {

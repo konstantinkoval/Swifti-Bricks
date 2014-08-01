@@ -11,11 +11,12 @@ import Foundation
 
 public class Queue<T> : Container<T> {
 
-  // MARK: - Init
+// MARK: - Init
   public init(_ items: Array<T>) {
     super.init(items)
   }
   
+// MARK: Main methods
   public func push(item: T) {
     items.insert(item, atIndex: 0)
   }
