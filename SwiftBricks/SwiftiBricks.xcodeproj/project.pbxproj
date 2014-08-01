@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B501856F198B76E100D7CB54 /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856A198B76E100D7CB54 /* SwiftSugar.swift */; };
+		B5018570198B76E100D7CB54 /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856A198B76E100D7CB54 /* SwiftSugar.swift */; };
+		B5018571198B76E100D7CB54 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856B198B76E100D7CB54 /* IntExtensions.swift */; };
+		B5018572198B76E100D7CB54 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856B198B76E100D7CB54 /* IntExtensions.swift */; };
+		B5018573198B76E100D7CB54 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856C198B76E100D7CB54 /* ArrayExtensions.swift */; };
+		B5018574198B76E100D7CB54 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856C198B76E100D7CB54 /* ArrayExtensions.swift */; };
+		B5018575198B76E100D7CB54 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856D198B76E100D7CB54 /* StringExtensions.swift */; };
+		B5018576198B76E100D7CB54 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856D198B76E100D7CB54 /* StringExtensions.swift */; };
+		B5018577198B7A7200D7CB54 /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856A198B76E100D7CB54 /* SwiftSugar.swift */; };
+		B5018578198B7A7200D7CB54 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856B198B76E100D7CB54 /* IntExtensions.swift */; };
+		B5018579198B7A7200D7CB54 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856C198B76E100D7CB54 /* ArrayExtensions.swift */; };
+		B501857A198B7A7200D7CB54 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856D198B76E100D7CB54 /* StringExtensions.swift */; };
 		B50EB12D19766FB2003E9CC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB12619766FAF003E9CC3 /* Stack.swift */; };
 		B50EB12E19766FB2003E9CC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB12619766FAF003E9CC3 /* Stack.swift */; };
 		B50EB12F19766FB3003E9CC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB12619766FAF003E9CC3 /* Stack.swift */; };
+		B5198DF4198A5D7E00053070 /* QueueSpeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5198DF3198A5D7E00053070 /* QueueSpeck.swift */; };
+		B5198DF6198A621400053070 /* ContainerSpeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5198DF5198A621400053070 /* ContainerSpeck.swift */; };
+		B55EEFEA198941AB00CADB58 /* StackSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F5B19767639007F3539 /* StackSequence.swift */; };
+		B55EEFEB198941AB00CADB58 /* StackSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F5B19767639007F3539 /* StackSequence.swift */; };
+		B55EEFEC198941AC00CADB58 /* StackSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F5B19767639007F3539 /* StackSequence.swift */; };
 		B5660F47197672EB007F3539 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F45197672EB007F3539 /* main.swift */; };
 		B5660F48197672EB007F3539 /* StackSpeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F46197672EB007F3539 /* StackSpeck.swift */; };
 		B5660F4A1976732D007F3539 /* Sleipnir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5660F491976732D007F3539 /* Sleipnir.framework */; };
 		B5BD48BB19768265001ECD50 /* SwiftiBricks-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B50EB12919766FAF003E9CC3 /* SwiftiBricks-iOS.h */; };
 		B5BD48BC1976826E001ECD50 /* SwiftiBricks-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = B50EB12C19766FAF003E9CC3 /* SwiftiBricks-OSX.h */; };
+		B5C891C8198A202100B4372D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C891C7198A202100B4372D /* Queue.swift */; };
+		B5C891C9198A202100B4372D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C891C7198A202100B4372D /* Queue.swift */; };
+		B5C891CA198A202100B4372D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C891C7198A202100B4372D /* Queue.swift */; };
+		B5C891CE198A295500B4372D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C891CD198A295500B4372D /* Container.swift */; };
+		B5C891CF198A295500B4372D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C891CD198A295500B4372D /* Container.swift */; };
+		B5C891D0198A295500B4372D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C891CD198A295500B4372D /* Container.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +53,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B501856A198B76E100D7CB54 /* SwiftSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSugar.swift; sourceTree = "<group>"; };
+		B501856B198B76E100D7CB54 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		B501856C198B76E100D7CB54 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		B501856D198B76E100D7CB54 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		B50EB0E319766DAE003E9CC3 /* SwiftiBricks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftiBricks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50EB10919766E2D003E9CC3 /* SwiftiBricks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftiBricks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50EB12619766FAF003E9CC3 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -37,11 +64,18 @@
 		B50EB12919766FAF003E9CC3 /* SwiftiBricks-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftiBricks-iOS.h"; sourceTree = "<group>"; };
 		B50EB12B19766FAF003E9CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B50EB12C19766FAF003E9CC3 /* SwiftiBricks-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftiBricks-OSX.h"; sourceTree = "<group>"; };
+		B5181FF719891C4600E7BAF5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		B5198DF3198A5D7E00053070 /* QueueSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueSpeck.swift; sourceTree = "<group>"; };
+		B5198DF5198A621400053070 /* ContainerSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerSpeck.swift; sourceTree = "<group>"; };
+		B525A1B4198B70F00034796A /* SwiftSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSugar.framework; path = "../../../../Work/Pods/Swift-Sugar/SwiftSugar/build/Debug-iphoneos/SwiftSugar.framework"; sourceTree = "<group>"; };
+		B525A1B6198B70F60034796A /* SwiftSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSugar.framework; path = "../../../../Work/Pods/Swift-Sugar/SwiftSugar/build/Release/SwiftSugar.framework"; sourceTree = "<group>"; };
 		B5660F45197672EB007F3539 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B5660F46197672EB007F3539 /* StackSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpeck.swift; sourceTree = "<group>"; };
 		B5660F491976732D007F3539 /* Sleipnir.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sleipnir.framework; path = "../DerivedData/Swift-Bricks/Build/Products/Debug/Sleipnir.framework"; sourceTree = "<group>"; };
 		B5660F5B19767639007F3539 /* StackSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSequence.swift; sourceTree = "<group>"; };
 		B59D0B6D1975816100FE3294 /* SwiftiBricksTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftiBricksTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C891C7198A202100B4372D /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		B5C891CD198A295500B4372D /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +104,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B501856E198B76E100D7CB54 /* SwiftSugar */ = {
+			isa = PBXGroup;
+			children = (
+				B501856A198B76E100D7CB54 /* SwiftSugar.swift */,
+				B501856B198B76E100D7CB54 /* IntExtensions.swift */,
+				B501856C198B76E100D7CB54 /* ArrayExtensions.swift */,
+				B501856D198B76E100D7CB54 /* StringExtensions.swift */,
+			);
+			name = SwiftSugar;
+			path = "../../../../Work/Pods/Swift-Sugar/SwiftSugar/SwiftSugar";
+			sourceTree = "<group>";
+		};
 		B50EB12519766FAF003E9CC3 /* SwiftiBricks */ = {
 			isa = PBXGroup;
 			children = (
+				B5C891C7198A202100B4372D /* Queue.swift */,
 				B50EB12619766FAF003E9CC3 /* Stack.swift */,
 				B5660F5B19767639007F3539 /* StackSequence.swift */,
+				B5C891CD198A295500B4372D /* Container.swift */,
 			);
 			path = SwiftiBricks;
 			sourceTree = "<group>";
@@ -102,6 +150,8 @@
 			children = (
 				B5660F45197672EB007F3539 /* main.swift */,
 				B5660F46197672EB007F3539 /* StackSpeck.swift */,
+				B5198DF3198A5D7E00053070 /* QueueSpeck.swift */,
+				B5198DF5198A621400053070 /* ContainerSpeck.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -109,7 +159,9 @@
 		B5A560FE1974823A002B1CEC = {
 			isa = PBXGroup;
 			children = (
-				B5660F491976732D007F3539 /* Sleipnir.framework */,
+				B501856E198B76E100D7CB54 /* SwiftSugar */,
+				B5AD65191989459D00126A5F /* Franeworks */,
+				B5181FF719891C4600E7BAF5 /* MyPlayground.playground */,
 				B50EB12519766FAF003E9CC3 /* SwiftiBricks */,
 				B5660F44197672EB007F3539 /* Test */,
 				B50EB12719766FAF003E9CC3 /* SwiftiBricks-iOS */,
@@ -126,6 +178,16 @@
 				B50EB10919766E2D003E9CC3 /* SwiftiBricks.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B5AD65191989459D00126A5F /* Franeworks */ = {
+			isa = PBXGroup;
+			children = (
+				B525A1B6198B70F60034796A /* SwiftSugar.framework */,
+				B525A1B4198B70F00034796A /* SwiftSugar.framework */,
+				B5660F491976732D007F3539 /* Sleipnir.framework */,
+			);
+			name = Franeworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +276,7 @@
 				TargetAttributes = {
 					B50EB0E219766DAE003E9CC3 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = VF2L8ZYHK8;
 					};
 					B50EB10819766E2D003E9CC3 = {
 						CreatedOnToolsVersion = 6.0;
@@ -264,7 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5018575198B76E100D7CB54 /* StringExtensions.swift in Sources */,
 				B50EB12D19766FB2003E9CC3 /* Stack.swift in Sources */,
+				B5C891CF198A295500B4372D /* Container.swift in Sources */,
+				B5018573198B76E100D7CB54 /* ArrayExtensions.swift in Sources */,
+				B501856F198B76E100D7CB54 /* SwiftSugar.swift in Sources */,
+				B5018571198B76E100D7CB54 /* IntExtensions.swift in Sources */,
+				B5C891C9198A202100B4372D /* Queue.swift in Sources */,
+				B55EEFEA198941AB00CADB58 /* StackSequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +342,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5018576198B76E100D7CB54 /* StringExtensions.swift in Sources */,
 				B50EB12E19766FB2003E9CC3 /* Stack.swift in Sources */,
+				B5C891D0198A295500B4372D /* Container.swift in Sources */,
+				B5018574198B76E100D7CB54 /* ArrayExtensions.swift in Sources */,
+				B5018570198B76E100D7CB54 /* SwiftSugar.swift in Sources */,
+				B5018572198B76E100D7CB54 /* IntExtensions.swift in Sources */,
+				B5C891CA198A202100B4372D /* Queue.swift in Sources */,
+				B55EEFEB198941AB00CADB58 /* StackSequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +357,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B501857A198B7A7200D7CB54 /* StringExtensions.swift in Sources */,
+				B5198DF6198A621400053070 /* ContainerSpeck.swift in Sources */,
+				B5C891C8198A202100B4372D /* Queue.swift in Sources */,
+				B5C891CE198A295500B4372D /* Container.swift in Sources */,
+				B5018577198B7A7200D7CB54 /* SwiftSugar.swift in Sources */,
 				B5660F48197672EB007F3539 /* StackSpeck.swift in Sources */,
+				B5018579198B7A7200D7CB54 /* ArrayExtensions.swift in Sources */,
+				B5018578198B7A7200D7CB54 /* IntExtensions.swift in Sources */,
+				B55EEFEC198941AC00CADB58 /* StackSequence.swift in Sources */,
 				B5660F47197672EB007F3539 /* main.swift in Sources */,
+				B5198DF4198A5D7E00053070 /* QueueSpeck.swift in Sources */,
 				B50EB12F19766FB3003E9CC3 /* Stack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,16 +378,23 @@
 		B50EB0F719766DAE003E9CC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/konstantin/Work/Pods/Swift-Sugar/SwiftSugar/build/Debug-iphoneos",
+					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug-iphoneos",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "SwiftiBricks-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_MODULE_NAME = SwiftiBricks;
 				PRODUCT_NAME = SwiftiBricks;
@@ -312,12 +405,19 @@
 		B50EB0F819766DAE003E9CC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/konstantin/Work/Pods/Swift-Sugar/SwiftSugar/build/Debug-iphoneos",
+					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "SwiftiBricks-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_MODULE_NAME = SwiftiBricks;
 				PRODUCT_NAME = SwiftiBricks;
@@ -329,10 +429,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = NO;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/konstantin/Work/Pods/Swift-Sugar/SwiftSugar/build/Debug",
+					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug-iphoneos",
+					"/Users/konstantin/Work/Pods/Swift-Sugar/SwiftSugar/build/Release",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -354,10 +460,16 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = NO;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/konstantin/Work/Pods/Swift-Sugar/SwiftSugar/build/Debug",
+					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug-iphoneos",
+					"/Users/konstantin/Work/Pods/Swift-Sugar/SwiftSugar/build/Release",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "SwiftiBricks-OSX/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -377,6 +489,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/DerivedData/Swift-Bricks/Build/Products/Debug",
 					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug",
+					"/Users/konstantin/Work/Pods/Swift-Sugar/SwiftSugar/build/Debug",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -396,6 +509,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/DerivedData/Swift-Bricks/Build/Products/Debug",
 					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug",
+					"/Users/konstantin/Work/Pods/Swift-Sugar/SwiftSugar/build/Debug",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = SwiftiBricksTest;

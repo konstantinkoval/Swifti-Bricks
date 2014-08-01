@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../Work/Pods/Swift-Sugar/SwiftSugar/SwiftSugar.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../../../Work/Pods/Sleipnir/Sleipnir/Sleipnir.xcodeproj">
    </FileRef>
    <FileRef

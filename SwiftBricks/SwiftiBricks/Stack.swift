@@ -7,52 +7,66 @@
 //
 
 import Foundation
+//import SwiftSugar
 
-struct Stack<T> :Equatable {
+public class Stack<T> : Container<T>, Sequence {
 
-  var items: [T]
-  
-  init () {
-    self.items = Array()
-  }
-  init (_ item: T) {
-    self.items = [item]
+// MARK: - Init
+  public init(_ items: Array<T>) {
+    super.init(items)
   }
   
-  init (_ items: Array<T>) {
-    self.items = items
-  }
-  
-// Root stakc funtion
-  mutating func push(object: T) {
+// MARK: Main
+  public func push(object: T) {
     items += object
   }
   
- mutating func pop() -> T {
+  public func pop() -> T {
     return items.removeLast()
   }
   
-// Helpful
-  var count: Int {
-    return items.count
+  public func pop( count: Int) -> [T] {
+    
+    assert(self.count >= count, "try to remove more elements that Exist")
+    let removed = items[(items.endIndex - count)..<items.endIndex]
+    items = items.removeLast(count)
+    return Array(removed)
   }
   
-  var isEmpty: Bool {
-    return items.isEmpty
-  }
 }
 
-extension Stack : Sequence {
- func generate() -> IndexingGenerator<[T]> {
-  return items.generate()
-  }
-}
+//public func test ()
+//{
+//  let s =  Stack<Int>(1)
+//  for item in s {
+//    println(items)
+//}
 
-@infix func + <T>(left: Stack<T>, right: Stack<T>) -> Stack<T> {
+
+@infix public func + <T>(left: Stack<T>, right: Stack<T>) -> Stack<T> {
   return Stack(left.items + right.items)
 }
 
-func == <T>(lhs: Stack<T>, rhs: Stack<T>) -> Bool {
-  return lhs.count == rhs.count && lhs.items == rhs.items
+@assignment public func += <T>(inout left: Stack<T>, right: Stack<T>) {
+  left = left + right
 }
+
+/*
+@infix public func - <T: Equatable>(lhs: Stack<T>, rhs: Stack<T>) -> Stack<T>? {
+  
+  assert(lhs.count > rhs.count, "Fist Stack has to be bigger")
+  
+  var result = lhs
+  for index in (min(lhs.count, rhs.count)-1)...0 {
+    println(index)
+    if lhs.items[index] == rhs.items[index] {
+      result.pop()
+    }
+    else {
+      break
+    }
+  }
+  return result
+}
+*/
 

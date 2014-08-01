@@ -17,7 +17,7 @@ class StackSpec : SleipnirSpec {
       stack = Stack<Int>()
     }
     
-    describe("empty stack") {
+    describe("Empty stack") {
       
       it("should have 0 items") {
         expect(stack.count).toNot(equal(4))
@@ -29,7 +29,7 @@ class StackSpec : SleipnirSpec {
       }
     }
     
-    describe("stack with 5 object") {
+    describe("Stack with 5 object") {
       beforeEach {
         stack = Stack<Int>([1, 2, 3, 4, 55])
       }
@@ -42,7 +42,7 @@ class StackSpec : SleipnirSpec {
       }
     }
     
-    describe("general stack behaviour") {
+    describe("General stack behaviour") {
       beforeEach {
         stack.push(101)
       }
@@ -68,18 +68,34 @@ class StackSpec : SleipnirSpec {
         it("shold return last object") {
           expect(stack.pop()).to(equal(101))
         }
+        it("shold pop 2 element") {
+          stack.push(102)
+          expect(stack.pop(2)).to(equal([101, 102]))
+        }
       }
       
       it("should be equal") {
         let stack1 = Stack(101)
-        expect(stack).to(equal(stack1))
+        expect(stack == stack1).to(beTrue())
       }
       
-      it("should add 2 stacks") {
+      it("should be able to add 2 stacks") {
         let stack1 = stack + Stack(1)
         let stack2 = Stack<Int>([101, 1])
-        expect(stack1).to(equal(stack2))
+        expect(stack1 == stack2).to(beTrue())
       }
+      
+        it("shold be iterable in for in") {
+          let stack = Stack<Int>([1,2,3])
+          for el in stack {
+            expect(el).toNot(beNil())
+          }
+        }
+      
+//      it("shold be able minus stacks") {
+//        let stack2 = Stack<Int>([101, 1]) - Stack(1)
+//        expect(stack == stack2!).to(beTrue())
+//      }
     }
   }
 }
