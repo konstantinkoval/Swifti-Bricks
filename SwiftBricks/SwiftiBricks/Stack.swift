@@ -41,6 +41,9 @@ public class Stack<T> : Container<T>, Sequence {
     return items.last!
   }
   
+  override public func generate() -> IndexingGenerator<[T]> {
+    return items.reverse().generate()
+  }
 }
 
 @infix public func + <T>(left: Stack<T>, right: Stack<T>) -> Stack<T> {
