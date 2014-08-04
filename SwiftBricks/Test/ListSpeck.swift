@@ -16,7 +16,7 @@ class ListSpec : SleipnirSpec {
       list = List<Int>()
     }
     
-    describe("create empty list") {
+    describe("init()") {
 
       it("should be created") {
         expect(list).toNot(beNil())
@@ -32,7 +32,7 @@ class ListSpec : SleipnirSpec {
       }
     }
     
-    describe("create with element") {
+    describe("init(1)") {
       var listWiht1Element = List<Int>(1)
 
       it("should be created") {
@@ -49,7 +49,7 @@ class ListSpec : SleipnirSpec {
       }
     }
     
-    describe("push to head ot list") {
+    describe("pushFront") {
 
       it("shold increse size") {
         let count = list.count
@@ -64,7 +64,7 @@ class ListSpec : SleipnirSpec {
       }
     }
     
-    describe("push to the back") {
+    describe("pushBack") {
       
       it("shold increse size") {
         let count = list.count
@@ -76,6 +76,12 @@ class ListSpec : SleipnirSpec {
         list.pushBack(11)
         expect(list.back).to(equal(11))
       }
+    }
+    
+    describe("popFront") {
+      xit("shold decrese size") {}
+      xit("shold return element") {}
+      xit("shold return nil for empty list") {}
     }
     
     

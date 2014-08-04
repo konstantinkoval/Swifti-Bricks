@@ -33,13 +33,20 @@ public class List<T>
   var head: Node<T>?
   var tail: Node<T>?
   
-  public(set) public var count = 0
+  public private(set) var count = 0
 
   public init () {}
   public init(_ item : T) {
     head = Node(item)
     tail = head
     count++
+  }
+  
+  var front: T? {
+    return head?.item
+  }
+  var back: T? {
+    return tail?.item
   }
   
   public func pushBack(item: T) {
@@ -52,13 +59,23 @@ public class List<T>
     count++
   }
   
-  var front: T? {
-    return head?.item
-  }
-  var back: T? {
-    return tail?.item
-  }
+//  MARK: Pop 
+//  public func popBack() -> T? {
+//    let item = tail
+//    if tail {
+//      tail = tail
+//    }
+//    return
+//  }
   
+  public func popFront() -> T? {
+    let item = head
+    if let item = item {
+      head = item.next
+    }
+    return item?.item
+    
+  }
 //
 //  public func popBack() -> T {
 //    let popItem = tail?.item
