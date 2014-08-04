@@ -10,7 +10,7 @@ import Sleipnir
 
 class StackSpec : SleipnirSpec {
     
-  var stackContext : () = context("stack") {
+  var stackContext : () = context("Stack - ") {
     var stack = Stack<Int>()
     
     beforeEach {
@@ -68,15 +68,31 @@ class StackSpec : SleipnirSpec {
         it("shold return last object") {
           expect(stack.pop()).to(equal(101))
         }
-        it("shold pop 2 element") {
+      }
+      
+      describe("pop 2 items") {
+        beforeEach {
           stack.push(102)
-          expect(stack.pop(2)).to(equal([101, 102]))
+          stack.push(103)
+        }
+        it("shold decrease size for 2") {
+          let count = stack.count
+          stack.pop(2)
+          expect(stack.count).to(equal(count - 2))
+        }
+        it("should return poped elements") {
+          let items = stack.pop(2)
+          expect(items).to(equal([102, 103]))
         }
       }
       
       it("should be equal") {
         let stack1 = Stack(101)
         expect(stack == stack1).to(beTrue())
+      }
+      it("should not be equal") {
+        let stack1 = Stack(102)
+        expect(stack == stack1).to(beFalse())
       }
       
       it("should be able to add 2 stacks") {
@@ -91,11 +107,11 @@ class StackSpec : SleipnirSpec {
           expect(el).toNot(beNil())
         }
       }
-      
+    }
+  }
+}
+
 //      it("shold be able minus stacks") {
 //        let stack2 = Stack<Int>([101, 1]) - Stack(1)
 //        expect(stack == stack2!).to(beTrue())
 //      }
-    }
-  }
-}

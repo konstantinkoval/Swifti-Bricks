@@ -44,4 +44,8 @@ public class Queue<T> : Container<T> {
     return Array(removed)
 
   }
+
+  override public var className: String {
+    return "Queue"
+  }
 }

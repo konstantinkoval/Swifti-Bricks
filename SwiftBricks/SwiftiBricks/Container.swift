@@ -22,7 +22,7 @@ protocol Containerable : Sequence {
   
 }
 
-public class Container<T> : Containerable {
+public class Container<T> : Containerable, Printable, ClassNamePrintable {
 
   typealias Element = T
   internal var items = Array<T>()
@@ -57,6 +57,15 @@ public class Container<T> : Containerable {
 //  MARK: - Sequence
   public func generate() -> IndexingGenerator<[T]> {
     return items.generate()
+  }
+  
+  public var description: String {
+    return "\(className) - count: \(count) \n" +
+      "elements: \(items)"
+  }
+  
+  public var className: String {
+    return "Container"
   }
 }
 

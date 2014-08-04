@@ -9,7 +9,7 @@
 import Foundation
 //import SwiftSugar
 
-public class Stack<T> : Container<T>, Sequence {
+public class Stack<T> : Container<T>, Sequence, Printable, ClassNamePrintable {
 
 // MARK: - Init
   public init(_ items: Array<T>) {
@@ -44,13 +44,35 @@ public class Stack<T> : Container<T>, Sequence {
   override public func generate() -> IndexingGenerator<[T]> {
     return items.reverse().generate()
   }
+  
+  override public var className: String {
+    return "Stack"
+  }
 }
 
 @infix public func + <T>(left: Stack<T>, right: Stack<T>) -> Stack<T> {
   return Stack(left.items + right.items)
 }
 
+@infix public func + <T>(lhs: Stack<T>, rhs: T) -> Stack<T> {
+  var stackItems = lhs.items
+  stackItems.append(rhs)
+  return Stack(stackItems)
+}
+
+@infix public func + <T>(lhs: Stack<T>, rhs: [T]) -> Stack<T> {
+  return Stack(lhs.items + rhs)
+}
+
 @assignment public func += <T>(inout left: Stack<T>, right: Stack<T>) {
+  left = left + right
+}
+
+@assignment public func += <T>(inout left: Stack<T>, right: T) {
+  left = left + right
+}
+
+@assignment public func += <T>(inout left: Stack<T>, right: [T]) {
   left = left + right
 }
 

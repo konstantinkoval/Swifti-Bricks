@@ -7,18 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B501856F198B76E100D7CB54 /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856A198B76E100D7CB54 /* SwiftSugar.swift */; };
-		B5018570198B76E100D7CB54 /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856A198B76E100D7CB54 /* SwiftSugar.swift */; };
-		B5018571198B76E100D7CB54 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856B198B76E100D7CB54 /* IntExtensions.swift */; };
-		B5018572198B76E100D7CB54 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856B198B76E100D7CB54 /* IntExtensions.swift */; };
-		B5018573198B76E100D7CB54 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856C198B76E100D7CB54 /* ArrayExtensions.swift */; };
-		B5018574198B76E100D7CB54 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856C198B76E100D7CB54 /* ArrayExtensions.swift */; };
-		B5018575198B76E100D7CB54 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856D198B76E100D7CB54 /* StringExtensions.swift */; };
-		B5018576198B76E100D7CB54 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856D198B76E100D7CB54 /* StringExtensions.swift */; };
-		B5018577198B7A7200D7CB54 /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856A198B76E100D7CB54 /* SwiftSugar.swift */; };
-		B5018578198B7A7200D7CB54 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856B198B76E100D7CB54 /* IntExtensions.swift */; };
-		B5018579198B7A7200D7CB54 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856C198B76E100D7CB54 /* ArrayExtensions.swift */; };
-		B501857A198B7A7200D7CB54 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501856D198B76E100D7CB54 /* StringExtensions.swift */; };
 		B50EB12D19766FB2003E9CC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB12619766FAF003E9CC3 /* Stack.swift */; };
 		B50EB12E19766FB2003E9CC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB12619766FAF003E9CC3 /* Stack.swift */; };
 		B50EB12F19766FB3003E9CC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB12619766FAF003E9CC3 /* Stack.swift */; };
@@ -30,6 +18,21 @@
 		B5660F47197672EB007F3539 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F45197672EB007F3539 /* main.swift */; };
 		B5660F48197672EB007F3539 /* StackSpeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F46197672EB007F3539 /* StackSpeck.swift */; };
 		B5660F4A1976732D007F3539 /* Sleipnir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5660F491976732D007F3539 /* Sleipnir.framework */; };
+		B56AB580198F6449008422CB /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB577198F643D008422CB /* SwiftSugar.swift */; };
+		B56AB581198F6449008422CB /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB578198F643D008422CB /* IntExtensions.swift */; };
+		B56AB582198F6449008422CB /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB579198F643D008422CB /* ArrayExtensions.swift */; };
+		B56AB583198F6449008422CB /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB57A198F643D008422CB /* StringExtensions.swift */; };
+		B56AB584198F6449008422CB /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB577198F643D008422CB /* SwiftSugar.swift */; };
+		B56AB585198F6449008422CB /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB578198F643D008422CB /* IntExtensions.swift */; };
+		B56AB586198F6449008422CB /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB579198F643D008422CB /* ArrayExtensions.swift */; };
+		B56AB587198F6449008422CB /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB57A198F643D008422CB /* StringExtensions.swift */; };
+		B56AB588198F6536008422CB /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB577198F643D008422CB /* SwiftSugar.swift */; };
+		B56AB589198F6536008422CB /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB578198F643D008422CB /* IntExtensions.swift */; };
+		B56AB58A198F6536008422CB /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB579198F643D008422CB /* ArrayExtensions.swift */; };
+		B56AB58B198F6536008422CB /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AB57A198F643D008422CB /* StringExtensions.swift */; };
+		B57E58C8198F7E51004E7C09 /* ClassPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E58C7198F7E51004E7C09 /* ClassPrintable.swift */; };
+		B57E58C9198F7E51004E7C09 /* ClassPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E58C7198F7E51004E7C09 /* ClassPrintable.swift */; };
+		B57E58CA198F7E51004E7C09 /* ClassPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E58C7198F7E51004E7C09 /* ClassPrintable.swift */; };
 		B5AE2E46198B894E00EDF37D /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE2E45198B894E00EDF37D /* List.swift */; };
 		B5AE2E47198B894E00EDF37D /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE2E45198B894E00EDF37D /* List.swift */; };
 		B5AE2E48198B894E00EDF37D /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE2E45198B894E00EDF37D /* List.swift */; };
@@ -57,10 +60,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B501856A198B76E100D7CB54 /* SwiftSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSugar.swift; sourceTree = "<group>"; };
-		B501856B198B76E100D7CB54 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
-		B501856C198B76E100D7CB54 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
-		B501856D198B76E100D7CB54 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		B50EB0E319766DAE003E9CC3 /* SwiftiBricks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftiBricks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50EB10919766E2D003E9CC3 /* SwiftiBricks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftiBricks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50EB12619766FAF003E9CC3 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -71,12 +70,15 @@
 		B5181FF719891C4600E7BAF5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		B5198DF3198A5D7E00053070 /* QueueSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueSpeck.swift; sourceTree = "<group>"; };
 		B5198DF5198A621400053070 /* ContainerSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerSpeck.swift; sourceTree = "<group>"; };
-		B525A1B4198B70F00034796A /* SwiftSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSugar.framework; path = "../../../../Work/Pods/Swift-Sugar/SwiftSugar/build/Debug-iphoneos/SwiftSugar.framework"; sourceTree = "<group>"; };
-		B525A1B6198B70F60034796A /* SwiftSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSugar.framework; path = "../../../../Work/Pods/Swift-Sugar/SwiftSugar/build/Release/SwiftSugar.framework"; sourceTree = "<group>"; };
 		B5660F45197672EB007F3539 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B5660F46197672EB007F3539 /* StackSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpeck.swift; sourceTree = "<group>"; };
 		B5660F491976732D007F3539 /* Sleipnir.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sleipnir.framework; path = "../DerivedData/Swift-Bricks/Build/Products/Debug/Sleipnir.framework"; sourceTree = "<group>"; };
 		B5660F5B19767639007F3539 /* StackSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSequence.swift; sourceTree = "<group>"; };
+		B56AB577198F643D008422CB /* SwiftSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSugar.swift; sourceTree = "<group>"; };
+		B56AB578198F643D008422CB /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		B56AB579198F643D008422CB /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		B56AB57A198F643D008422CB /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		B57E58C7198F7E51004E7C09 /* ClassPrintable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassPrintable.swift; sourceTree = "<group>"; };
 		B59D0B6D1975816100FE3294 /* SwiftiBricksTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftiBricksTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AE2E45198B894E00EDF37D /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		B5AE2E49198BA1B700EDF37D /* ListSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSpeck.swift; sourceTree = "<group>"; };
@@ -110,18 +112,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B501856E198B76E100D7CB54 /* SwiftSugar */ = {
-			isa = PBXGroup;
-			children = (
-				B501856A198B76E100D7CB54 /* SwiftSugar.swift */,
-				B501856B198B76E100D7CB54 /* IntExtensions.swift */,
-				B501856C198B76E100D7CB54 /* ArrayExtensions.swift */,
-				B501856D198B76E100D7CB54 /* StringExtensions.swift */,
-			);
-			name = SwiftSugar;
-			path = "../../../../Work/Pods/Swift-Sugar/SwiftSugar/SwiftSugar";
-			sourceTree = "<group>";
-		};
 		B50EB12519766FAF003E9CC3 /* SwiftiBricks */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,10 +154,23 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		B56AB57B198F643D008422CB /* SwiftSugar */ = {
+			isa = PBXGroup;
+			children = (
+				B56AB577198F643D008422CB /* SwiftSugar.swift */,
+				B56AB578198F643D008422CB /* IntExtensions.swift */,
+				B56AB579198F643D008422CB /* ArrayExtensions.swift */,
+				B56AB57A198F643D008422CB /* StringExtensions.swift */,
+				B57E58C7198F7E51004E7C09 /* ClassPrintable.swift */,
+			);
+			name = SwiftSugar;
+			path = "../../../../Work/Pods/Swift-Sugar/SwiftSugar/SwiftSugar";
+			sourceTree = "<group>";
+		};
 		B5A560FE1974823A002B1CEC = {
 			isa = PBXGroup;
 			children = (
-				B501856E198B76E100D7CB54 /* SwiftSugar */,
+				B56AB57B198F643D008422CB /* SwiftSugar */,
 				B5AD65191989459D00126A5F /* Franeworks */,
 				B5181FF719891C4600E7BAF5 /* MyPlayground.playground */,
 				B50EB12519766FAF003E9CC3 /* SwiftiBricks */,
@@ -191,8 +194,6 @@
 		B5AD65191989459D00126A5F /* Franeworks */ = {
 			isa = PBXGroup;
 			children = (
-				B525A1B6198B70F60034796A /* SwiftSugar.framework */,
-				B525A1B4198B70F00034796A /* SwiftSugar.framework */,
 				B5660F491976732D007F3539 /* Sleipnir.framework */,
 			);
 			name = Franeworks;
@@ -335,15 +336,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5018575198B76E100D7CB54 /* StringExtensions.swift in Sources */,
+				B56AB581198F6449008422CB /* IntExtensions.swift in Sources */,
+				B56AB580198F6449008422CB /* SwiftSugar.swift in Sources */,
+				B57E58C9198F7E51004E7C09 /* ClassPrintable.swift in Sources */,
 				B50EB12D19766FB2003E9CC3 /* Stack.swift in Sources */,
+				B56AB583198F6449008422CB /* StringExtensions.swift in Sources */,
 				B5C891CF198A295500B4372D /* Container.swift in Sources */,
-				B5018573198B76E100D7CB54 /* ArrayExtensions.swift in Sources */,
-				B501856F198B76E100D7CB54 /* SwiftSugar.swift in Sources */,
-				B5018571198B76E100D7CB54 /* IntExtensions.swift in Sources */,
 				B5C891C9198A202100B4372D /* Queue.swift in Sources */,
 				B55EEFEA198941AB00CADB58 /* StackSequence.swift in Sources */,
 				B5AE2E47198B894E00EDF37D /* List.swift in Sources */,
+				B56AB582198F6449008422CB /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,15 +353,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5018576198B76E100D7CB54 /* StringExtensions.swift in Sources */,
+				B56AB585198F6449008422CB /* IntExtensions.swift in Sources */,
+				B56AB584198F6449008422CB /* SwiftSugar.swift in Sources */,
+				B57E58CA198F7E51004E7C09 /* ClassPrintable.swift in Sources */,
 				B50EB12E19766FB2003E9CC3 /* Stack.swift in Sources */,
+				B56AB587198F6449008422CB /* StringExtensions.swift in Sources */,
 				B5C891D0198A295500B4372D /* Container.swift in Sources */,
-				B5018574198B76E100D7CB54 /* ArrayExtensions.swift in Sources */,
-				B5018570198B76E100D7CB54 /* SwiftSugar.swift in Sources */,
-				B5018572198B76E100D7CB54 /* IntExtensions.swift in Sources */,
 				B5C891CA198A202100B4372D /* Queue.swift in Sources */,
 				B55EEFEB198941AB00CADB58 /* StackSequence.swift in Sources */,
 				B5AE2E48198B894E00EDF37D /* List.swift in Sources */,
+				B56AB586198F6449008422CB /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,18 +370,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B501857A198B7A7200D7CB54 /* StringExtensions.swift in Sources */,
+				B56AB58A198F6536008422CB /* ArrayExtensions.swift in Sources */,
 				B5198DF6198A621400053070 /* ContainerSpeck.swift in Sources */,
+				B57E58C8198F7E51004E7C09 /* ClassPrintable.swift in Sources */,
 				B5C891C8198A202100B4372D /* Queue.swift in Sources */,
+				B56AB588198F6536008422CB /* SwiftSugar.swift in Sources */,
 				B5C891CE198A295500B4372D /* Container.swift in Sources */,
 				B5AE2E46198B894E00EDF37D /* List.swift in Sources */,
-				B5018577198B7A7200D7CB54 /* SwiftSugar.swift in Sources */,
 				B5660F48197672EB007F3539 /* StackSpeck.swift in Sources */,
-				B5018579198B7A7200D7CB54 /* ArrayExtensions.swift in Sources */,
-				B5018578198B7A7200D7CB54 /* IntExtensions.swift in Sources */,
 				B55EEFEC198941AC00CADB58 /* StackSequence.swift in Sources */,
 				B5660F47197672EB007F3539 /* main.swift in Sources */,
 				B5198DF4198A5D7E00053070 /* QueueSpeck.swift in Sources */,
+				B56AB58B198F6536008422CB /* StringExtensions.swift in Sources */,
+				B56AB589198F6536008422CB /* IntExtensions.swift in Sources */,
 				B5AE2E4A198BA1B700EDF37D /* ListSpeck.swift in Sources */,
 				B50EB12F19766FB3003E9CC3 /* Stack.swift in Sources */,
 			);
