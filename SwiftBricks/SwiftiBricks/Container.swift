@@ -8,7 +8,12 @@
 
 import Foundation
 
-protocol Containerable : Sequence {
+
+protocol ContainerCollection {
+  
+}
+
+protocol Containerable : SequenceType {
   typealias Element
   
   var items: [Element] { get set }
@@ -20,9 +25,11 @@ protocol Containerable : Sequence {
   var count: Int { get }
   var isEmpty: Bool { get }
   
+  mutating func clear ()
+  
 }
 
-public class Container<T> : Containerable, Printable, ClassNamePrintable {
+public struct Container<T> : Containerable, Printable, ClassNamePrintable {
 
   typealias Element = T
   internal var items = Array<T>()
@@ -32,11 +39,11 @@ public class Container<T> : Containerable, Printable, ClassNamePrintable {
     self.items = items
   }
 
-  public convenience init (_ item: T) {
+  public init (_ item: T) {
     self.init([item])
   }
   
-  public convenience init() {
+  public init() {
     self.init([])
   }
   
@@ -50,7 +57,7 @@ public class Container<T> : Containerable, Printable, ClassNamePrintable {
   }
 
 //  MARK: - mutate functions
-  func clear () {
+  mutating public func clear () {
     self.items.removeAll()
   }
   

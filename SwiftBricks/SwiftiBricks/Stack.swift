@@ -9,70 +9,92 @@
 import Foundation
 //import SwiftSugar
 
-public class Stack<T> : Container<T>, Sequence, Printable, ClassNamePrintable {
-
-// MARK: - Init
-  public init(_ items: Array<T>) {
-    super.init(items)
+public struct Stack<T> :Containerable, SequenceType, Printable, ClassNamePrintable {
+   typealias Element = T
+  private var container: Container<T>
+  
+//  MARK:- Containerable
+  public init (_ items: Array<T>) {
+    container = Container(items)
   }
+  
+  public init (_ item: T) {
+    self.init([item])
+  }
+  
+  public init() {
+    self.init([])
+  }
+  
+  public var count: Int {
+    return container.count
+  }
+  
+  public var isEmpty: Bool {
+    return container.isEmpty
+  }
+
   
 // MARK: Main methods
-  public func push(object: T) {
-    items += object
+  mutating public func push(object: T) {
+    container.items.append(object)
   }
   
-  public func push(items: [T]) {
-    self.items += items
+  mutating public func push(items: [T]) {
+    self.container.items += items
   }
   
-  public func pop() -> T {
-    return items.removeLast()
+  mutating public func pop() -> T {
+    return container.items.removeLast()
   }
   
-  public func pop( count: Int) -> [T] {
+  mutating public func pop( count: Int) -> [T] {
     
     assert(self.count >= count, "try to remove more elements that Exist")
-    let removed = items[(items.endIndex - count)..<items.endIndex]
-    items = items.removeLast(count)
+    let removed = container.items[(container.items.endIndex - count)..<container.items.endIndex]
+    container.items = container.items.removeLast(count)
     return Array(removed)
   }
   
   var top: T {
-    return items.last!
+    return container.items.last!
   }
   
-  override public func generate() -> IndexingGenerator<[T]> {
-    return items.reverse().generate()
+  public func generate() -> IndexingGenerator<[T]> {
+    return container.items.reverse().generate()
   }
   
-  override public var className: String {
+  public var description: String {
+    return container.description
+  }
+  public var className: String {
     return "Stack"
   }
 }
 
-@infix public func + <T>(left: Stack<T>, right: Stack<T>) -> Stack<T> {
-  return Stack(left.items + right.items)
+public func + <T>(left: Stack<T>, right: Stack<T>) -> Stack<T> {
+  return Stack(left.container.items + right.container.items)
 }
 
-@infix public func + <T>(lhs: Stack<T>, rhs: T) -> Stack<T> {
-  var stackItems = lhs.items
+ public func + <T>(lhs: Stack<T>, rhs: T) -> Stack<T> {
+  var stackItems = lhs.container.items
   stackItems.append(rhs)
   return Stack(stackItems)
 }
 
-@infix public func + <T>(lhs: Stack<T>, rhs: [T]) -> Stack<T> {
-  return Stack(lhs.items + rhs)
+public func + <T>(lhs: Stack<T>, rhs: [T]) -> Stack<T> {
+  return Stack(lhs.container.items + rhs)
 }
 
-@assignment public func += <T>(inout left: Stack<T>, right: Stack<T>) {
+public func += <T>(inout left: Stack<T>, right: Stack<T>) {
   left = left + right
 }
 
-@assignment public func += <T>(inout left: Stack<T>, right: T) {
+public func += <T>(inout left: Stack<T>, right: T) {
   left = left + right
 }
 
-@assignment public func += <T>(inout left: Stack<T>, right: [T]) {
+public func += <T>(inout left: Stack<T>, right: [T]) {
   left = left + right
 }
 

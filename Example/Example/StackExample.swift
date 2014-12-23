@@ -11,6 +11,7 @@ import SwiftiBricks
 func useStack()
 {
 
+  let color = UIColor(red: 0.5, green: 0.0, blue: 0.5, alpha: 1.0)
   var s = Stack<Int>()
   
   s.push(10)

@@ -1,10 +1,8 @@
 // Playground - noun: a place where people can play
 
 import Cocoa
-//import Foundation
 
 //var str = "Hello, playground"
-//
 //var ar:[Int] = [1,2,3]
 //var ar2:[Int] = [1,2,3]
 //
@@ -19,12 +17,11 @@ import Cocoa
 //  
 //  var age  = 0
 //  var name = ""
-////  let birthDate: NSDate
 //  
 //  init(age: Int, name: String) {
 //    self.age = age
 //    self.name = name
-//    //birthDate = NSDate.date()
+//    birthDate = NSDate.date()
 //  }
 //  
 //  func hello() {
@@ -38,65 +35,62 @@ import Cocoa
 //
 //var age = 26
 //var name = "Konstantin"
-//let π = 3.14159
-//var welcomeMessage: String
 //
-//age + 10
-////age + π
-//var emty = welcomeMessage + "11"
-//
-//
-//
-//name.isEmpty
-////age.isEmpty
+//let isNameEmpty = name.isEmpty
+////let isAgeEmpty = age.isEmpty
 //
 //var fullName = name + " Koval"
-//var nameAndAge  = fullName + age
+////var nameAndAge  = fullName + age
 //
 //func isEven(num: Int) -> Bool {
 //  return num % 2 == 0
 //}
 //
 //isEven(2)
-//isEven("2")
+////isEven("2")
 //
 //var name1: String
 //let a = 00
 //
-////name1.isEmpty
-//
-//
-//
-//////// Nil
-//
-//// Java and C++
-//Person person
-//person.name // NullPointerException
-//if(person != null) {
-//  
+//name1.isEmpty
+
+
+
+////// Nil
+/*
+// Java and C++
+Person person
+person.name // NullPointerException
+if(person != null) {
+
+}
+
+// Objective-C
+
+Person* person
+person = Person(age: 26, name: "Konstantin")
+person.name
+
+if(person) {
+NSString *name = person.name
+if (name) {
+
+}
+}*/
+
+//func getPerson () ->Person {
+//  return Person(age: 26, name: "Konstantin")
 //}
 //
-//// Objective-C
-//Person* person = PersonFactory.person()
-//person = Person(age: 26, name: "Konstantin")
-//person.name
-//
-//if(person) {
-//  NSString *name = person.name
-//  if (name) {
-//    
-//  }
-//}
-//
-//var person: Person
-//person = Person(age: 26, name: "Konstantin")
+//var person = getPerson()
+////person = Person(age: 26, name: "Konstantin")
 //person.name
 //
 //var maybePerson: Person?
 //
 //maybePerson.hasValue
 //if maybePerson != nil {
-////  maybePerson.name
+//  //  maybePerson.name
 //  maybePerson!.name
 //}
 //
@@ -123,7 +117,7 @@ import Cocoa
 // -----------  Functional -----------
 
 func increase(ar :[Int], #by: Int) -> [Int] {
-
+  
   var result = ar
   for var i = 0; i < ar.count; i++ {
     result[i] += by
@@ -141,7 +135,7 @@ func decrease(ar :[Int], #by: Int) -> [Int] {
 }
 
 func modify(ar: [Int], #operation: (Int) ->(Int) ) -> [Int] {
-
+  
   var result = ar
   for var i = 0; i < ar.count; i++ {
     // Do operation
@@ -155,20 +149,13 @@ var ar1 = [1,2,3]
 let res = increase(ar1, by:10)
 let res1 = decrease(ar1, by:5)
 
-func plusOne(a: Int ) -> Int {
- return a + 1
-}
+var res3 = modify(ar1) { $0 + 10 }
+res3 = modify(ar1) { $0 - 2 }
+res3 = modify(ar1) { $0 * 2 }
 
-var ar = modify(ar1) { $0 + 10 }
-ar = modify(ar1) { $0 - 2 }
-ar = modify(ar1) { $0 * 2 }
-ar = modify(ar, operation: plusOne)
-
-ar.map {$0 - 2}
-ar.filter { $0 % 2 == 0}
-ar.reduce(0, combine: +)
-
-
+var increseBy5 = ar1.append
+increseBy5(10)
+ar1
 
 
 

@@ -9,24 +9,44 @@
 import Foundation
 //import SwiftSugar
 
-public class Queue<T> : Container<T> {
+public struct Queue<T> {
+
+  private var container: Container<T>
 
 // MARK: - Init
   public init(_ items: Array<T>) {
-    super.init(items)
+    container = Container(items)
+  }
+  
+  private var items: Array<T> {
+    get {
+      return container.items
+    }
+    set {
+      container.items = newValue
+    }
   }
   
 // MARK: Main methods
-  public func push(item: T) {
+  mutating public func push(item: T) {
     items.insert(item, atIndex: 0)
   }
   
-  public func push(items: [T]) {
+  mutating public func push(items: [T]) {
     self.items = items + self.items
   }
   
-  public func pop() -> T {
+  mutating public func pop() -> T {
     return items.removeLast()
+  }
+  
+  //  MARK: - Methods
+  public var count: Int {
+    return container.count
+  }
+  
+  public var isEmpty: Bool {
+    return container.isEmpty
   }
   
   var front: T {
@@ -37,7 +57,7 @@ public class Queue<T> : Container<T> {
     return items[0]
   }
   
-  public func pop(count: Int) -> [T] {
+  mutating public func pop(count: Int) -> [T] {
     assert(self.count >= count, "try to remove more elements that Exist")
     let removed = items[(items.endIndex - count)..<items.endIndex]
     items = items.removeLast(count)
@@ -45,7 +65,7 @@ public class Queue<T> : Container<T> {
 
   }
 
-  override public var className: String {
+  public var className: String {
     return "Queue"
   }
 }

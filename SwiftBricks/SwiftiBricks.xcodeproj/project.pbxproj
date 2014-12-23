@@ -12,6 +12,7 @@
 		B50EB12F19766FB3003E9CC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EB12619766FAF003E9CC3 /* Stack.swift */; };
 		B5198DF4198A5D7E00053070 /* QueueSpeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5198DF3198A5D7E00053070 /* QueueSpeck.swift */; };
 		B5198DF6198A621400053070 /* ContainerSpeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5198DF5198A621400053070 /* ContainerSpeck.swift */; };
+		B55BDAF219910D0700F53877 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = B55BDAF119910D0700F53877 /* test.m */; };
 		B55EEFEA198941AB00CADB58 /* StackSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F5B19767639007F3539 /* StackSequence.swift */; };
 		B55EEFEB198941AB00CADB58 /* StackSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F5B19767639007F3539 /* StackSequence.swift */; };
 		B55EEFEC198941AC00CADB58 /* StackSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5660F5B19767639007F3539 /* StackSequence.swift */; };
@@ -37,6 +38,8 @@
 		B5AE2E47198B894E00EDF37D /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE2E45198B894E00EDF37D /* List.swift */; };
 		B5AE2E48198B894E00EDF37D /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE2E45198B894E00EDF37D /* List.swift */; };
 		B5AE2E4A198BA1B700EDF37D /* ListSpeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE2E49198BA1B700EDF37D /* ListSpeck.swift */; };
+		B5BD261E199149C50047E041 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD261D199149C50047E041 /* Test.swift */; };
+		B5BD261F199149C50047E041 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD261D199149C50047E041 /* Test.swift */; };
 		B5BD48BB19768265001ECD50 /* SwiftiBricks-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B50EB12919766FAF003E9CC3 /* SwiftiBricks-iOS.h */; };
 		B5BD48BC1976826E001ECD50 /* SwiftiBricks-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = B50EB12C19766FAF003E9CC3 /* SwiftiBricks-OSX.h */; };
 		B5C891C8198A202100B4372D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C891C7198A202100B4372D /* Queue.swift */; };
@@ -45,6 +48,7 @@
 		B5C891CE198A295500B4372D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C891CD198A295500B4372D /* Container.swift */; };
 		B5C891CF198A295500B4372D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C891CD198A295500B4372D /* Container.swift */; };
 		B5C891D0198A295500B4372D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C891CD198A295500B4372D /* Container.swift */; };
+		B5D5E8EC19900B1F00C21E9B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5E8EB19900B1F00C21E9B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +74,13 @@
 		B5181FF719891C4600E7BAF5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		B5198DF3198A5D7E00053070 /* QueueSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueSpeck.swift; sourceTree = "<group>"; };
 		B5198DF5198A621400053070 /* ContainerSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerSpeck.swift; sourceTree = "<group>"; };
+		B55BDAED1990F40600F53877 /* Genericks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Genericks.playground; sourceTree = "<group>"; };
+		B55BDAEE1990FCB400F53877 /* Immutable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Immutable.playground; sourceTree = "<group>"; };
+		B55BDAEF1990FF7700F53877 /* tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = tuples.playground; sourceTree = "<group>"; };
+		B55BDAF0199102A500F53877 /* operations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = operations.playground; sourceTree = "<group>"; };
+		B55BDAF119910D0700F53877 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		B55BDB201991104000F53877 /* PatternMatching.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PatternMatching.playground; sourceTree = "<group>"; };
+		B55BDB21199148F800F53877 /* MyPlayground11.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground11.playground; sourceTree = "<group>"; };
 		B5660F45197672EB007F3539 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B5660F46197672EB007F3539 /* StackSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpeck.swift; sourceTree = "<group>"; };
 		B5660F491976732D007F3539 /* Sleipnir.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sleipnir.framework; path = "../DerivedData/Swift-Bricks/Build/Products/Debug/Sleipnir.framework"; sourceTree = "<group>"; };
@@ -82,8 +93,12 @@
 		B59D0B6D1975816100FE3294 /* SwiftiBricksTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftiBricksTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AE2E45198B894E00EDF37D /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		B5AE2E49198BA1B700EDF37D /* ListSpeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSpeck.swift; sourceTree = "<group>"; };
+		B5BD261B199149880047E041 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		B5BD261D199149C50047E041 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		B5BD262019914C710047E041 /* aaa.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = aaa.playground; sourceTree = "<group>"; };
 		B5C891C7198A202100B4372D /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		B5C891CD198A295500B4372D /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		B5D5E8EB19900B1F00C21E9B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +132,10 @@
 			children = (
 				B5C891C7198A202100B4372D /* Queue.swift */,
 				B5AE2E45198B894E00EDF37D /* List.swift */,
+				B55BDAF119910D0700F53877 /* test.m */,
 				B50EB12619766FAF003E9CC3 /* Stack.swift */,
-				B5660F5B19767639007F3539 /* StackSequence.swift */,
 				B5C891CD198A295500B4372D /* Container.swift */,
+				B5660F5B19767639007F3539 /* StackSequence.swift */,
 			);
 			path = SwiftiBricks;
 			sourceTree = "<group>";
@@ -170,9 +186,19 @@
 		B5A560FE1974823A002B1CEC = {
 			isa = PBXGroup;
 			children = (
+				B5BD261B199149880047E041 /* Cocoa.framework */,
 				B56AB57B198F643D008422CB /* SwiftSugar */,
 				B5AD65191989459D00126A5F /* Franeworks */,
 				B5181FF719891C4600E7BAF5 /* MyPlayground.playground */,
+				B5BD261D199149C50047E041 /* Test.swift */,
+				B55BDB21199148F800F53877 /* MyPlayground11.playground */,
+				B55BDAED1990F40600F53877 /* Genericks.playground */,
+				B55BDAEE1990FCB400F53877 /* Immutable.playground */,
+				B55BDAEF1990FF7700F53877 /* tuples.playground */,
+				B55BDAF0199102A500F53877 /* operations.playground */,
+				B55BDB201991104000F53877 /* PatternMatching.playground */,
+				B5BD262019914C710047E041 /* aaa.playground */,
+				B5D5E8EB19900B1F00C21E9B /* Person.m */,
 				B50EB12519766FAF003E9CC3 /* SwiftiBricks */,
 				B5660F44197672EB007F3539 /* Test */,
 				B50EB12719766FAF003E9CC3 /* SwiftiBricks-iOS */,
@@ -341,6 +367,7 @@
 				B57E58C9198F7E51004E7C09 /* ClassPrintable.swift in Sources */,
 				B50EB12D19766FB2003E9CC3 /* Stack.swift in Sources */,
 				B56AB583198F6449008422CB /* StringExtensions.swift in Sources */,
+				B5BD261E199149C50047E041 /* Test.swift in Sources */,
 				B5C891CF198A295500B4372D /* Container.swift in Sources */,
 				B5C891C9198A202100B4372D /* Queue.swift in Sources */,
 				B55EEFEA198941AB00CADB58 /* StackSequence.swift in Sources */,
@@ -358,6 +385,7 @@
 				B57E58CA198F7E51004E7C09 /* ClassPrintable.swift in Sources */,
 				B50EB12E19766FB2003E9CC3 /* Stack.swift in Sources */,
 				B56AB587198F6449008422CB /* StringExtensions.swift in Sources */,
+				B5BD261F199149C50047E041 /* Test.swift in Sources */,
 				B5C891D0198A295500B4372D /* Container.swift in Sources */,
 				B5C891CA198A202100B4372D /* Queue.swift in Sources */,
 				B55EEFEB198941AB00CADB58 /* StackSequence.swift in Sources */,
@@ -374,12 +402,14 @@
 				B5198DF6198A621400053070 /* ContainerSpeck.swift in Sources */,
 				B57E58C8198F7E51004E7C09 /* ClassPrintable.swift in Sources */,
 				B5C891C8198A202100B4372D /* Queue.swift in Sources */,
+				B55BDAF219910D0700F53877 /* test.m in Sources */,
 				B56AB588198F6536008422CB /* SwiftSugar.swift in Sources */,
 				B5C891CE198A295500B4372D /* Container.swift in Sources */,
 				B5AE2E46198B894E00EDF37D /* List.swift in Sources */,
 				B5660F48197672EB007F3539 /* StackSpeck.swift in Sources */,
 				B55EEFEC198941AC00CADB58 /* StackSequence.swift in Sources */,
 				B5660F47197672EB007F3539 /* main.swift in Sources */,
+				B5D5E8EC19900B1F00C21E9B /* Person.m in Sources */,
 				B5198DF4198A5D7E00053070 /* QueueSpeck.swift in Sources */,
 				B56AB58B198F6536008422CB /* StringExtensions.swift in Sources */,
 				B56AB589198F6536008422CB /* IntExtensions.swift in Sources */,
@@ -501,6 +531,7 @@
 		B59D0B711975816100FE3294 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DerivedData/Swift-Bricks/Build/Products/Debug",
@@ -511,15 +542,18 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = SwiftiBricksTest;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B59D0B721975816100FE3294 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -527,6 +561,7 @@
 					"/Users/konstantin/My_Projects/Swift/Swifti-Bricks/DerivedData/Swift-Bricks/Build/Products/Debug",
 					"/Users/konstantin/Work/Pods/Swift-Sugar/SwiftSugar/build/Debug",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = SwiftiBricksTest;
 				SDKROOT = macosx;
